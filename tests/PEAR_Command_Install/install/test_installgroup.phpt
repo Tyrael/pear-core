@@ -102,11 +102,11 @@ require_once dirname(dirname(__FILE__)) . '/teardown.php.inc';
 3;+ mkdir %s/php/Console
 3;+ cp %s/Console_Getopt-1.2/Console/Getopt.php %s/php/Console/.tmpGetopt.php
 2;md5sum ok: %s/php/Console/Getopt.php
-3;adding to transaction: chmod 644 %s/php/Console/.tmpGetopt.php
+3;adding to transaction: chmod 6%d4 %s/php/Console/.tmpGetopt.php
 3;adding to transaction: rename %s/php/Console/.tmpGetopt.php %s/php/Console/Getopt.php 
 3;adding to transaction: installed_as Console/Getopt.php %s/php/Console/Getopt.php %s/php /Console
 2;about to commit 4 file operations for Console_Getopt
-3;+ chmod 644 %s/php/Console/.tmpGetopt.php
+3;+ chmod 6%d4 %s/php/Console/.tmpGetopt.php
 3;+ mv %s/php/Console/.tmpGetopt.php %s/php/Console/Getopt.php
 2;successfully committed 4 file operations
 array (

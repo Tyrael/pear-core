@@ -250,11 +250,11 @@ require_once dirname(dirname(__FILE__)) . '/teardown.php.inc';
 1;...done: 2,208 bytes
 3;+ cp %s/Foobar-1.5.0a1/foo12.php %s/php/.tmpfoo12.php
 2;md5sum ok: %s/php/foo12.php
-3;adding to transaction: chmod 644 %s/php/.tmpfoo12.php
+3;adding to transaction: chmod 6%d4 %s/php/.tmpfoo12.php
 3;adding to transaction: rename %s/php/.tmpfoo12.php %s/php/foo12.php 
 3;adding to transaction: installed_as foo12.php %s/php/foo12.php %s/php /
 2;about to commit 3 file operations for Foobar
-3;+ chmod 644 %s/php/.tmpfoo12.php
+3;+ chmod 6%d4 %s/php/.tmpfoo12.php
 3;+ mv %s/php/.tmpfoo12.php %s/php/foo12.php
 2;successfully committed 3 file operations
 array (
@@ -266,11 +266,11 @@ array (
 )
 3;+ cp %s/Bar-1.5.2/foo1.php %s/php/.tmpfoo1.php
 2;md5sum ok: %s/php/foo1.php
-3;adding to transaction: chmod 644 %s/php/.tmpfoo1.php
+3;adding to transaction: chmod 6%d4 %s/php/.tmpfoo1.php
 3;adding to transaction: rename %s/php/.tmpfoo1.php %s/php/foo1.php 
 3;adding to transaction: installed_as foo1.php %s/php/foo1.php %s/php /
 2;about to commit 3 file operations for Bar
-3;+ chmod 644 %s/php/.tmpfoo1.php
+3;+ chmod 6%d4 %s/php/.tmpfoo1.php
 3;+ mv %s/php/.tmpfoo1.php %s/php/foo1.php
 2;successfully committed 3 file operations
 array (
@@ -281,11 +281,11 @@ array (
   'cmd' => 'install',
 )
 3;+ cp %s/PEAR_Command_Install/install/packages/foo.php %s/php/.tmpfoo.php
-3;adding to transaction: chmod 644 %s/php/.tmpfoo.php
+3;adding to transaction: chmod 6%d4 %s/php/.tmpfoo.php
 3;adding to transaction: rename %s/php/.tmpfoo.php %s/php/foo.php 
 3;adding to transaction: installed_as foo.php %s/php/foo.php %s/php /
 2;about to commit 3 file operations for PEAR1
-3;+ chmod 644 %s/php/.tmpfoo.php
+3;+ chmod 6%d4 %s/php/.tmpfoo.php
 3;+ mv %s/php/.tmpfoo.php %s/php/foo.php
 2;successfully committed 3 file operations
 array (
